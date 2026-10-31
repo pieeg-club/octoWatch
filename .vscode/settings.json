@@ -1,0 +1,4 @@
+{
+    "monkeyC.developerKeyPath": "${workspaceFolder}\\developer_key",
+    "monkeyC.typeCheckLevel": "Off"
+}

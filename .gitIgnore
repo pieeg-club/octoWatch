@@ -1,0 +1,35 @@
+# Inspiration / Reference Material
+inspiration_for_AI_coding_assistant/*
+
+# Garmin Connect IQ Build Artifacts
+bin/
+build/
+*.prg
+*.iq
+*.prg.debug.xml
+*.mir
+
+# Garmin Developer Keys (Private RSA keys - never commit)
+developer_key
+*.der
+*.pem
+
+# ESP32 / Arduino Firmware Build Outputs
+firmware/**/build/
+firmware/**/*.bin
+firmware/**/*.elf
+firmware/**/*.map
+
+# Python / Virtual Environments
+.venv/
+__pycache__/
+*.pyc
+
+# IDE & OS Files
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.log
