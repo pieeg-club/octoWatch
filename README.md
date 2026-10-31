@@ -170,16 +170,7 @@ Declared in [manifest.xml](./manifest.xml):
 
 ---
 
-## Firmware & Diagnostic Utilities (`firmware/OCTOPUS-16-GARMIN/`)
+## Firmware
 
-- **ESP32 `ADS131M08` Driver** ([firmware/OCTOPUS-16-GARMIN/ESP32/ADS131M08.cpp](./firmware/OCTOPUS-16-GARMIN/ESP32/ADS131M08.cpp)):
-  - Configures and reads 8 channels per `ADS131M08` over SPI (`1 MHz`, `MSBFIRST`, `SPI_MODE1`) with DMA burst transfers (`USE_DMA_FOR_ADC_READ` via `SPI.transferBytes`), 24-bit sign extension, and PGA gain scaling.
-- **BLE Scanner** ([firmware/OCTOPUS-16-GARMIN/ble_scan.py](./firmware/OCTOPUS-16-GARMIN/ble_scan.py)):
-  ```powershell
-  python firmware\OCTOPUS-16-GARMIN\ble_scan.py 10
-  ```
-- **Serial Frame Monitor** ([firmware/OCTOPUS-16-GARMIN/monitor.py](./firmware/OCTOPUS-16-GARMIN/monitor.py)):
-  Opens the XIAO ESP32-S3 USB CDC port without toggling DTR/RTS and counts `0xA0` EEG frame markers:
-  ```powershell
-  python firmware\OCTOPUS-16-GARMIN\monitor.py COM3 8
-  ```
+You can flash Octopus-16 for garmin here:
+https://biocircuit.pieeg.com/flash
