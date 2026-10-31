@@ -1,6 +1,8 @@
 # octoWatch — Garmin Connect IQ EEG Monitor for PiEEG Octopus-16
 
 **[Download octoWatch on Garmin Connect IQ Store →](https://apps.garmin.com/apps/8e994535-c853-45ca-abe3-ccef61119c8b)**
+<img width="1898" height="1553" alt="image" src="https://github.com/user-attachments/assets/952e313a-3dba-4d0b-9c2a-4259c7e4624a" />
+
 
 **octoWatch** is a Garmin Connect IQ watch application that decodes and visualizes 16-channel 250 SPS biosignals in real time over Bluetooth Low Energy (BLE) from the **PiEEG Octopus-16** (ESP32-S3 + dual Texas Instruments `ADS131M08` 24-bit delta-sigma ADCs).
 
